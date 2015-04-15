@@ -1,0 +1,30 @@
+* {
+	&, &:before, &:after {
+		@include box-sizing(border-box);
+	}
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
+	min-height: 100vh;
+
+	@include display(flex);
+	@include flex-direction(column);
+}
+
+main {
+	background-color: #fff;
+	overflow: auto;
+
+	@include display(flex);
+	@include flex-direction(column);
+	@include align-items(center);
+	@include justify-content(center);
+	@include flex(1);
+}
+
+@include selection {
+    background-color: rgba($color-primary, 0.5);
+}
