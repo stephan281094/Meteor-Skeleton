@@ -10,7 +10,6 @@ This skeleton contains the following packages:
 * Mike Mocha
 
 ## Still to do
-* Integrate tests with Mocha to encourage BDD (including Travis CI)
 * Add a standard MIT license
 * Add example code
 * More..
