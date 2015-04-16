@@ -8,3 +8,5 @@ if Meteor.isClient
 		action: ->
 			@render 'home'
 		name: 'home'
+
+	# Add routes here

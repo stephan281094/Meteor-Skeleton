@@ -10,6 +10,5 @@ This skeleton contains the following packages:
 * Mike Mocha
 
 ## Still to do
-* Add a standard MIT license
 * Add example code
 * More..

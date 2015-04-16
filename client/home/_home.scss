@@ -1,4 +1,6 @@
 #home {
+	@include align-items(center);
+
 	h1 {
 		margin: auto;
 	}

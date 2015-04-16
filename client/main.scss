@@ -1,11 +1,19 @@
 @import
+
+// Vendor
 ".meteor/local/build/programs/server/assets/packages/wolves_bourbon/bourbon/bourbon",
 
+// Base
 "application/functions",
 "application/mixins",
 "application/variables",
 
+// Components
 "application/components/loading",
 "application/components/typography",
 
-"application/layout/layout";
+// Layout
+"application/layout/layout",
+
+// Modules
+"home/home"; // import module SCSS here
