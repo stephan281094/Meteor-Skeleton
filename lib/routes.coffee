@@ -9,4 +9,9 @@ if Meteor.isClient
 			@render 'home'
 		name: 'home'
 
+	Router.route '/contact',
+		action: ->
+			@render 'contact'
+		name: 'contact'
+
 	# Add routes here
