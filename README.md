@@ -8,7 +8,3 @@ This skeleton contains the following packages:
 * Wolves Bourbon
 * CoffeeScript
 * Mike Mocha
-
-## Still to do
-* Add example code
-* More..
