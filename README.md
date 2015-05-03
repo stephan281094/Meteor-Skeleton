@@ -8,3 +8,5 @@ This skeleton contains the following packages:
 * Wolves Bourbon
 * CoffeeScript
 * Mike Mocha
+* Aldeed Collection2
+* Houston Admin
