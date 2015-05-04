@@ -14,3 +14,7 @@ iron:router
 mike:mocha
 aldeed:collection2
 houston:admin
+gfk:notifications
+zimme:iron-router-active
+meteorhacks:fast-render
+fastclick
