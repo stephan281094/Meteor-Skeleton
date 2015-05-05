@@ -3,6 +3,7 @@ if Meteor.isClient
 		loadingTemplate:  'loading'
 		notFoundTemplate: 'notfound'
 		layoutTemplate:   'layout'
+		fastRender: true
 
 	Router.route '/',
 		action: ->
