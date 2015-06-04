@@ -8,9 +8,6 @@ This skeleton contains the following packages:
 * Fastclick
 * Fourseven SCSS
 * Gfk Notifications
-* Houston Admin
-* Iron router
-* Meteorhacks Fast Render
-* Mike Mocha
+* Meteorhacks Flow Router
+* Meteorhacks Flow Layout
 * Wolves Bourbon
-* Zimme Iron Router Active
