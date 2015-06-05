@@ -2,8 +2,15 @@ $color-primary:    #333;
 $color-background: #fff;
 $color-selection:  #0ca;
 $color-font:       #333;
+$color-white:             rgba(255, 255, 255, 1);
+$color-dark:              rgba(0, 0, 0, 0.9);
+$color-medium:            rgba(0, 0, 0, 0.8);
+$color-light:             rgba(0, 0, 0, 0.5);
 
-$width-tablet:     "(max-width: 70rem)";
-$width-phone:      "(max-width: 40rem)";
+$font-default:            "lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-$font-default:     "Source Sans Pro" ,"Helvetica Neue", Helvetica, Arial, sans-serif;
+$nav-height:              4rem;
+$tablet-width:            "(max-width: 70rem)";
+$phone-width:             "(max-width: 40rem)";
+$header-default-size:     1.4rem;
+$header-transition-speed: 0.2s;

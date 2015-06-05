@@ -3,12 +3,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 </head>
 <template name="layout">
-	<!-- {{> notifications}} -->
-	<main>
-		{{> Template.dynamic template=content}}
-		<nav>
+	<div class="notifications">{{> notifications}}</div>
+	<div class="applicationContent">
+		<nav class="nav">
 			<a href="/">Home</a>
 			<a href="/about">About</a>
 		</nav>
-	</main>
+		<main>
+			{{> Template.dynamic template=content}}
+		</main>
+	</div>
 </template>
