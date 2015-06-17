@@ -3,23 +3,3 @@
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
 }
-
-@mixin selection($current-selector: false) {
-	@if $current-selector {
-		&::-moz-selection {
-			@content;
-		}
-
-		&::selection {
-			@content;
-		}
-	} @else {
-		::-moz-selection {
-			@content;
-		}
-
-		::selection {
-			@content;
-		}
-	}
-}
