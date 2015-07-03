@@ -14,4 +14,4 @@ ExampleSchema = new SimpleSchema
 		max:      1000
 
 
-Examples.attachSchema(ExampleSchema);
+Examples.attachSchema ExampleSchema
