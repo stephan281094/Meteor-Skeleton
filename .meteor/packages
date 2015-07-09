@@ -11,7 +11,7 @@ fourseven:scss
 gfk:notifications
 insecure
 meteor-platform
-meteorhacks:flow-layout
-meteorhacks:flow-router
+meteorhacks:flow-layout@1.4.1
+meteorhacks:flow-router@1.18.0
 wolves:bourbon
 arillo:flow-router-helpers
