@@ -14,4 +14,4 @@ meteor-platform
 meteorhacks:flow-layout@1.4.1
 meteorhacks:flow-router@1.18.0
 wolves:bourbon
-arillo:flow-router-helpers
+arillo:flow-router-helpers@0.4.0
