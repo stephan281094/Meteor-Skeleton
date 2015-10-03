@@ -8,6 +8,6 @@ This skeleton contains the following packages:
 * Fastclick
 * Fourseven SCSS
 * Gfk Notifications
-* Meteorhacks Flow Router
-* Meteorhacks Flow Layout
+* Kadirahq Flow Router
+* Kadirahq Blaze Layout
 * Wolves Bourbon

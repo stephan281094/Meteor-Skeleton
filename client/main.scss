@@ -1,7 +1,7 @@
 @import
 
 // Vendor
-".meteor/local/build/programs/server/assets/packages/wolves_bourbon/bourbon/bourbon",
+"bourbon/bourbon",
 
 // Base
 "application/functions",
@@ -19,4 +19,4 @@
 
 // Modules
 "home/home",
-"about/about"; // import module SCSS here
+"about/about";

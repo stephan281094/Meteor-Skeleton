@@ -7,12 +7,8 @@
 aldeed:collection2
 coffeescript
 fastclick
-fourseven:scss
 gfk:notifications
 insecure
-meteorhacks:flow-layout@1.4.1
-meteorhacks:flow-router@1.18.0
-wolves:bourbon
 arillo:flow-router-helpers@0.4.1
 standard-minifiers
 meteor-base
@@ -28,3 +24,7 @@ random
 ejson
 spacebars
 check
+kadira:flow-router
+kadira:blaze-layout
+wolves:bourbon
+fourseven:scss
