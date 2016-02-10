@@ -1,118 +1,118 @@
 * {
-    &, &:before, &:after {
-        box-sizing: border-box;
-    }
+  &, &:before, &:after {
+    box-sizing: border-box;
+  }
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    min-height: 100vh;
-    background-color: $color-background;
-    font-family: sans-serif;
-    font-weight: 100;
-    overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-color: $color-background;
+  font-family: sans-serif;
+  font-weight: 100;
+  overflow-x: hidden;
 
-    @include selection {
-        color: #fff;
-        background-color: rgba($color-primary, 0.5);
-    }
+  @include selection {
+    color: #fff;
+    background-color: rgba($color-primary, 0.5);
+  }
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 
-    &, li {
-        padding: 0;
-        margin: 0;
-    }
+  &, li {
+    padding: 0;
+    margin: 0;
+  }
 }
 
 img {
-    width: 100%;
-    height: 100%;
-    display: block;
-    @include user-select(none);
+  width: 100%;
+  height: 100%;
+  display: block;
+  @include user-select(none);
 }
 
 main {
-    height: 100%;
-    min-height: 100vh;
-    overflow: hidden;
+  height: 100%;
+  min-height: 100vh;
+  overflow: hidden;
 
-    padding-top: $nav-height;
-    @include display(flex);
-    @include flex-direction(column);
+  padding-top: $nav-height;
+  @include display(flex);
+  @include flex-direction(column);
 }
 
 header {
-    background-color: #fff;
-    width: 100vw;
-    @include flex-direction(row);
-    @include justify-content(center);
-    @include align-items(center);
+  background-color: #fff;
+  width: 100vw;
+  @include flex-direction(row);
+  @include justify-content(center);
+  @include align-items(center);
 }
 
 section {
-    @include flex(1);
-    @include flex-direction(column);
-    @include justify-content(center);
-    text-align: center;
+  @include flex(1);
+  @include flex-direction(column);
+  @include justify-content(center);
+  text-align: center;
 }
 
 header, section {
-    padding: 4.5rem 20%;
-    overflow: hidden;
-    @include display(flex);
-    @include flex-wrap(wrap);
+  padding: 4.5rem 20%;
+  overflow: hidden;
+  @include display(flex);
+  @include flex-wrap(wrap);
 }
 
 .applicationContent {
-    position: relative;
-    z-index: 1;
-    background-color: $color-background;
-    @include transition(.4s);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+  position: relative;
+  z-index: 1;
+  background-color: $color-background;
+  @include transition(.4s);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
 }
 
 .applicationContent.menu-open {
-    opacity: 0.6;
-    @include transform(translate3d(40%, 0, 0) scale3d(0.85, 0.85, 1));
+  opacity: 0.6;
+  @include transform(translate3d(40%, 0, 0) scale3d(0.85, 0.85, 1));
 }
 
 .applicationMenu {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 40vw;
-    height: 100vh;
-    z-index: 0;
-    @include display(flex);
-    @include flex-direction(column);
-    @include align-items(center);
-    @include flex-wrap(wrap);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 40vw;
+  height: 100vh;
+  z-index: 0;
+  @include display(flex);
+  @include flex-direction(column);
+  @include align-items(center);
+  @include flex-wrap(wrap);
 }
 
 .applicationMenu ul {
-    margin: auto;
+  margin: auto;
 }
 
 .applicationMenu li {
-    font-size: 2rem;
-    margin: 1rem 0;
+  font-size: 2rem;
+  margin: 1rem 0;
 }
 
 @media #{$tablet-width} {
-    header, section {
-        padding: 4.5rem 10%;
-    }
+  header, section {
+    padding: 4.5rem 10%;
+  }
 }
 
 @media #{$phone-width} {
-    header, section {
-        padding: 4.5rem 5%;
-        @include flex-direction(column);
-    }
+  header, section {
+    padding: 4.5rem 5%;
+    @include flex-direction(column);
+  }
 }

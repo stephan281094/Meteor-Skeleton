@@ -1,7 +1,7 @@
 FlowRouter.route '/',
-	action: ->
-		BlazeLayout.render('layout', {content: 'home'})
+  action: ->
+    BlazeLayout.render('layout', {content: 'home'})
 
 FlowRouter.route '/about',
-	action: ->
-		BlazeLayout.render('layout', {content: 'about'})
+  action: ->
+    BlazeLayout.render('layout', {content: 'about'})

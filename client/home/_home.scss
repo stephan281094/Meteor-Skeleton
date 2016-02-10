@@ -1,9 +1,9 @@
 #home {
-	@include display(flex);
-	@include align-items(center);
-	@include flex(1);
+  @include display(flex);
+  @include align-items(center);
+  @include flex(1);
 
-	h1 {
-		margin: auto;
-	}
+  h1 {
+    margin: auto;
+  }
 }
