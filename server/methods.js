@@ -1,6 +1,6 @@
 // Define your Meteor methods here
 Meteor.methods({
-  serverTime: function () {
+  serverTime () {
     return Date.now()
   }
 })
