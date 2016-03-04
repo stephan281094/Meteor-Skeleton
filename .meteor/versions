@@ -1,5 +1,5 @@
-aldeed:collection2@2.8.0
-aldeed:collection2-core@1.0.0
+aldeed:collection2@2.9.0
+aldeed:collection2-core@1.1.0
 aldeed:schema-deny@1.0.1
 aldeed:schema-index@1.0.1
 aldeed:simple-schema@1.5.3
@@ -18,7 +18,7 @@ caching-html-compiler@1.0.2
 callback-hook@1.0.4
 check@1.1.0
 coffeescript@1.0.11
-cosmos:browserify@0.9.3
+cosmos:browserify@0.9.4
 ddp@1.2.2
 ddp-client@1.2.1
 ddp-common@1.2.2
