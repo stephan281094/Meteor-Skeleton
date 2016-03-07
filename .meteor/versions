@@ -30,6 +30,8 @@ ecmascript-runtime@0.2.6
 ejson@1.0.7
 fastclick@1.0.7
 fourseven:scss@3.4.1
+frozeman:animation-helper@0.2.6
+frozeman:global-notifications@0.2.1
 geojson-utils@1.0.4
 gfk:notifications@1.1.4
 hot-code-push@1.0.0
