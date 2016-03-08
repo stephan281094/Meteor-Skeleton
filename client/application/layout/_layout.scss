@@ -9,7 +9,7 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
-  min-height: 100vh;
+  min-height: 100%;
   background-color: $color-background;
   font-family: sans-serif;
   font-weight: 100;
@@ -21,13 +21,11 @@ body {
   }
 }
 
-ul {
+ul,
+li {
   list-style: none;
-
-  &, li {
-    padding: 0;
-    margin: 0;
-  }
+  padding: 0;
+  margin: 0;
 }
 
 img {
@@ -56,13 +54,14 @@ header {
 }
 
 section {
+  text-align: center;
   @include flex(1);
   @include flex-direction(column);
   @include justify-content(center);
-  text-align: center;
 }
 
-header, section {
+header,
+section {
   padding: 4.5rem 20%;
   overflow: hidden;
   @include display(flex);
@@ -73,8 +72,8 @@ header, section {
   position: relative;
   z-index: 1;
   background-color: $color-background;
-  @include transition(.4s);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+  @include transition(.4s);
 }
 
 .applicationContent.menu-open {
@@ -105,13 +104,15 @@ header, section {
 }
 
 @media #{$tablet-width} {
-  header, section {
+  header,
+  section {
     padding: 4.5rem 10%;
   }
 }
 
 @media #{$phone-width} {
-  header, section {
+  header,
+  section {
     padding: 4.5rem 5%;
     @include flex-direction(column);
   }
