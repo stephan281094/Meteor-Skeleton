@@ -9,7 +9,6 @@ fastclick
 gfk:notifications
 insecure
 arillo:flow-router-helpers@0.4.1
-standard-minifiers
 meteor-base
 mobile-experience
 mongo
@@ -29,3 +28,5 @@ fourseven:scss
 wolves:bourbon
 ecmascript
 frozeman:global-notifications
+standard-minifier-css
+standard-minifier-js
